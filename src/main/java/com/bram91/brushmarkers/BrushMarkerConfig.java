@@ -259,7 +259,7 @@ public interface BrushMarkerConfig extends Config
 	}
 
 	@Range(
-		max = 128
+		max = 255
 	)
 	@ConfigItem(
 		keyName = "brushPolyAlpha",
